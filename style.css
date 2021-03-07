@@ -1,0 +1,101 @@
+html, body {
+    margin: 0;
+    padding: 0;
+  }
+
+
+.title {
+  padding: 20px;
+  margin: 20px;
+  font-family: 'Gill Sans', sans-serif;
+}
+
+
+.main {
+  padding: 20px;
+  margin: 20px;
+}
+
+  .letter1 {
+    width: 20rem;
+    padding: 20px;
+    position: absolute;
+    left: 10%;
+    padding: 20px;
+  }
+
+  .letter2 {
+    width: 20rem;
+    position: absolute;
+    top: 50%;
+    right: 10%;
+    padding: 20px;
+  }
+
+  .letter3 {
+    width: 20rem;
+    position: absolute;
+    top: 100%;
+    left: 10%;
+    padding: 20px;
+  }
+
+  .letter4 {
+    width: 25rem;
+    position: absolute;
+    top: 150%;
+    right: 10%;
+    padding: 20px;
+  }
+
+  .letter5 {
+    width: 20rem;
+    position: absolute;
+    top: 200%;
+    left: 10%;
+    padding: 20px;
+  }
+
+  .letter6 {
+    width: 20rem;
+    position: absolute;
+    top: 250%;
+    right: 10%;
+    padding: 20px;
+  }
+  
+  table.unicode-properties {
+    border: 1px solid #000;
+    border-collapse: collapse;
+    width: auto;
+    position: absolute;
+}
+
+table {
+    margin-bottom: 1.4em;
+    width: 100%;
+}
+
+table.unicode-properties2 {
+  border: 1px solid #000;
+  border-collapse: collapse;
+  width: auto;
+  position: absolute;
+}
+
+.unicode1 {
+  font-size: 20px;
+}
+
+.image1 {
+  width: 20rem;
+  visibility: hidden;
+}
+
+.unicode1:hover {
+  color: purple;
+}
+
+.unicode1:hover .image1{
+visibility: visible;
+}
