@@ -17,25 +17,29 @@ html, body {
 }
 
   .letter1 {
+    background: red;
     width: 20rem;
     padding: 20px;
     position: absolute;
+    top: 70%;
     left: 10%;
     padding: 20px;
   }
 
   .letter2 {
+    background: blue;
     width: 20rem;
     position: absolute;
-    top: 50%;
+    top: 120%;
     right: 10%;
     padding: 20px;
   }
 
   .letter3 {
+    background: yellow;
     width: 20rem;
     position: absolute;
-    top: 100%;
+    top: 170%;
     left: 10%;
     padding: 20px;
   }
@@ -43,23 +47,25 @@ html, body {
   .letter4 {
     width: 25rem;
     position: absolute;
-    top: 150%;
+    top: 220%;
     right: 10%;
     padding: 20px;
   }
 
   .letter5 {
+    background: red;
     width: 20rem;
     position: absolute;
-    top: 200%;
+    top: 270%;
     left: 10%;
     padding: 20px;
   }
 
   .letter6 {
+    background: blue;
     width: 20rem;
     position: absolute;
-    top: 250%;
+    top: 320%;
     right: 10%;
     padding: 20px;
   }
@@ -76,26 +82,97 @@ table {
     width: 100%;
 }
 
-table.unicode-properties2 {
+.unicode-properties1 {
+  width: 100%;
+  position: absolute;
+  top: 79%;
+  left: 35%;
+}
+
+
+table.unicode-properties3 {
   border: 1px solid #000;
   border-collapse: collapse;
   width: auto;
   position: absolute;
 }
 
-.unicode1 {
-  font-size: 20px;
-}
-
-.image1 {
-  width: 20rem;
-  visibility: hidden;
-}
-
 .unicode1:hover {
   color: purple;
 }
 
-.unicode1:hover .image1{
-visibility: visible;
+.unicode-properties1 {
+  display: none;
 }
+.unicode-properties1.active {
+  display: flex;
+}
+
+.unicode-properties2 {
+  display: none;
+  width: 20rem;
+  position: absolute;
+  top: 135%;
+  right: 30%;
+}
+.unicode-properties2.active {
+  display: flex;
+}
+
+.letter2 {
+  animation: rotation 2s; 
+  animation-iteration-count: infinite;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+
+.letter3 {
+  animation: rotation2 2s; 
+  animation-iteration-count: infinite;
+}
+
+@keyframes rotation2 {
+  
+  0% { transform: rotate(-10deg); }
+  
+  50% { transform: rotate(25deg) }
+  
+  100% { transform: rotate(-10deg); }
+  
+  }
+
+  .letter5 {
+    animation: rotation2 2s; 
+    animation-iteration-count: infinite;
+  }
+  
+  @keyframes rotation2 {
+    
+    0% { transform: rotate(-10deg); }
+    
+    50% { transform: rotate(25deg) }
+    
+    100% { transform: rotate(-10deg); }
+    
+    }
+
+    .letter6 {
+      animation: rotation 2s; 
+      animation-iteration-count: infinite;
+    }
+    
+    @keyframes rotation {
+      from {
+        transform: rotate(0deg);
+      }
+      to {
+        transform: rotate(359deg);
+      }
+    }

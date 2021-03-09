@@ -15,11 +15,12 @@
     <script type="text/javascript" src="./script.js" defer></script>
 </head>
 
-<body>
+<body onload="init()">
     <h1 class="title">Hangul</h1>
-    <div class="main">
-
-        <div class="unicode-properties">
+    <canvas id="myCanvas" style="background-color: aliceblue" width="1800" height="400"></canvas>
+     <div class="main">
+        <img class="letter1" src=./assets/Giyeok.jpg>
+            <div class="unicode-properties1">
             <table class="unicode-properties">
             <tr><th>Korean Alphabet</th><td>한글 Hangul</td></tr>
             <tr><th>Script</th><td><span> Featural alphabet</span>
@@ -39,22 +40,20 @@
             </table>
             </div>
             
-            <div class="unicode-properties">
+            <div class="unicode-properties2">
                 <table class="unicode-properties">
                 <tr><th>Unicode alias</th><td>Hangul</td></tr>
                 <tr><th>Unicode range</th><td class="unicode1">U+AC00–U+D7AF</td></tr>
-                <img class="image1" src=./assets/image1.jpg>
                 <tr><th>Unicode range</th><td class="unicode2">U+1100–U+11FF</td></tr>
                 <tr><th>Unicode range</th><td class="unicode3">U+3130–U+318F</td></tr>
                 <tr><th>Unicode range</th><td class="unicode4">U+A960–U+A97F</td></tr>
                 <tr><th>Unicode range</th><td class="unicode5">U+D7B0–U+D7FF</td></tr>
             </table>
                 </div>
-
-    <img class="letter1" src=./assets/Giyeok.jpg>
+                
     <img class="letter2" src=./assets/Nieun.jpg>
     <img class="letter3" src=./assets/Digeut.jpg>
-    <img class="letter4" src=./assets/li.jpg>
+    <img class="letter4" src=./assets/hangul.jpg>
     <img class="letter5" src=./assets/mi.jpg>
     <img class="letter6" src=./assets/bi.jpg>
    
