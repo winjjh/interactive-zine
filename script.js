@@ -115,6 +115,9 @@ function hideTable2() {
   table2.classList.remove("active");
 }
 
+
+//drawing canvas javascript effect
+
 var canvas, context;
 function init() {
     canvas = document.getElementById("myCanvas");

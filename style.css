@@ -16,6 +16,20 @@ html, body {
   margin: 20px;
 }
 
+.main-text {
+  font-size: 1.2;
+}
+
+.home {
+  padding: 20px;
+  position: absolute;
+  top: 5%;
+  right: 5%;
+  font-size: 15px;
+  text-decoration: none;
+  color: black;
+}
+
   .letter1 {
     background: red;
     width: 20rem;
@@ -44,6 +58,14 @@ html, body {
     padding: 20px;
   }
 
+.text1 {
+  position: absolute;
+  top: 187%;
+  left: 40%;
+  padding: 20px;
+  margin: 20px;
+}
+
   .letter4 {
     width: 25rem;
     position: absolute;
@@ -51,6 +73,14 @@ html, body {
     right: 10%;
     padding: 20px;
   }
+
+.text2 {
+  position: absolute;
+  top: 230%;
+  left: 3%;
+  padding: 20px;
+  width: 60%;
+}
 
   .letter5 {
     background: red;
@@ -61,6 +91,14 @@ html, body {
     padding: 20px;
   }
 
+.text3 {
+  position: absolute;
+  top: 280%;
+  right: 2%;
+  padding: 20px;
+  width: 60%;
+}
+
   .letter6 {
     background: blue;
     width: 20rem;
@@ -70,6 +108,14 @@ html, body {
     padding: 20px;
   }
   
+.text4 {
+  position: absolute;
+  top: 330%;
+  left: 2%;
+  padding: 20px;
+  width: 60%;
+}
+
   table.unicode-properties {
     border: 1px solid #000;
     border-collapse: collapse;

@@ -1,68 +1,176 @@
 <!DOCTYPE html>
 <html>
-
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <title>Interactive Zine</title>
 
     <!-- add reset to create consistency between browsers and devices. -->
-    <link rel="stylesheet" type="text/css" href="./reset.css">
-    <link rel="stylesheet" type="text/css" href="./style.css">
+    <link rel="stylesheet" type="text/css" href="./reset.css" />
+    <link rel="stylesheet" type="text/css" href="./style.css" />
 
     <!-- add defer to tell the browser to apply javascript after page has been completely parsed -->
     <script type="text/javascript" src="./script.js" defer></script>
-</head>
+  </head>
 
-<body onload="init()">
+  <body onload="init()">
     <h1 class="title">Hangul</h1>
-    <canvas id="myCanvas" style="background-color: aliceblue" width="1800" height="400"></canvas>
-     <div class="main">
-        <img class="letter1" src=./assets/Giyeok.jpg>
-            <div class="unicode-properties1">
-            <table class="unicode-properties">
-            <tr><th>Korean Alphabet</th><td>한글 Hangul</td></tr>
-            <tr><th>Script</th><td><span> Featural alphabet</span>
-            <tr><th>Type</th><td>/</td></tr>
-            <tr><th>Creator</th><td>Sejong of Joseon</td></tr>
-            <tr><th>Time period</th><td>1443-Presennt</td></tr>
-            <tr><th>Direction</th><td><a href="https://en.wikipedia.org/wiki/Hangul">Wikipedia</a></td></tr>
-            <tr><th>Print basis</th><td>writing direction (different variantts of Hangul)</td></tr>
-            <tr><th>Languages</th><td>Korean, Jeju, Cia-Cia, Taiwanese</td></tr>
-            <tr><th>Official script of</th><td>South Korea, North Korea</td></tr>
-            <tr><th>Unicode alias</th><td>Hangul</td></tr>
-            <tr><th>Unicode range</th><td>	U+AC00–U+D7AF
-                U+1100–U+11FF
-                U+3130–U+318F
-                U+A960–U+A97F
-                U+D7B0–U+D7FF</td></tr>
-            </table>
-            </div>
-            
-            <div class="unicode-properties2">
-                <table class="unicode-properties">
-                <tr><th>Unicode alias</th><td>Hangul</td></tr>
-                <tr><th>Unicode range</th><td class="unicode1">U+AC00–U+D7AF</td></tr>
-                <tr><th>Unicode range</th><td class="unicode2">U+1100–U+11FF</td></tr>
-                <tr><th>Unicode range</th><td class="unicode3">U+3130–U+318F</td></tr>
-                <tr><th>Unicode range</th><td class="unicode4">U+A960–U+A97F</td></tr>
-                <tr><th>Unicode range</th><td class="unicode5">U+D7B0–U+D7FF</td></tr>
-            </table>
-                </div>
-                
-    <img class="letter2" src=./assets/Nieun.jpg>
-    <img class="letter3" src=./assets/Digeut.jpg>
-    <img class="letter4" src=./assets/hangul.jpg>
-    <img class="letter5" src=./assets/mi.jpg>
-    <img class="letter6" src=./assets/bi.jpg>
-   
+    <a class="home" href="https://core2online.github.io/wikipedia-zine/"
+      >Interaction Lab</a
+    >
+    <canvas
+      id="myCanvas"
+      style="background-color: aliceblue"
+      width="1800"
+      height="400"
+    ></canvas>
+    <div class="main">
+      <img class="letter1" src=./assets/Giyeok.jpg>
+      <div class="unicode-properties1">
+        <table class="unicode-properties">
+          <tr>
+            <th>Korean Alphabet</th>
+            <td>한글 Hangul</td>
+          </tr>
+          <tr>
+            <th>Script</th>
+            <td>
+              <span> Featural alphabet</span>
+              <tr>
+                <th>Type</th>
+                <td>/</td>
+              </tr>
+              <tr>
+                <th>Creator</th>
+                <td>Sejong of Joseon</td>
+              </tr>
+              <tr>
+                <th>Time period</th>
+                <td>1443-Presennt</td>
+              </tr>
+              <tr>
+                <th>Direction</th>
+                <td>
+                  <a href="https://en.wikipedia.org/wiki/Hangul">Wikipedia</a>
+                </td>
+              </tr>
+              <tr>
+                <th>Print basis</th>
+                <td>writing direction (different variantts of Hangul)</td>
+              </tr>
+              <tr>
+                <th>Languages</th>
+                <td>Korean, Jeju, Cia-Cia, Taiwanese</td>
+              </tr>
+              <tr>
+                <th>Official script of</th>
+                <td>South Korea, North Korea</td>
+              </tr>
+              <tr>
+                <th>Unicode alias</th>
+                <td>Hangul</td>
+              </tr>
+              <tr>
+                <th>Unicode range</th>
+                <td>
+                  U+AC00–U+D7AF U+1100–U+11FF U+3130–U+318F U+A960–U+A97F
+                  U+D7B0–U+D7FF
+                </td>
+              </tr>
+            </td>
+          </tr>
+        </table>
+      </div>
 
+      <div class="unicode-properties2">
+        <table class="unicode-properties">
+          <tr>
+            <th>Unicode alias</th>
+            <td>Hangul</td>
+          </tr>
+          <tr>
+            <th>Unicode range</th>
+            <td class="unicode1">U+AC00–U+D7AF</td>
+          </tr>
+          <tr>
+            <th>Unicode range</th>
+            <td class="unicode2">U+1100–U+11FF</td>
+          </tr>
+          <tr>
+            <th>Unicode range</th>
+            <td class="unicode3">U+3130–U+318F</td>
+          </tr>
+          <tr>
+            <th>Unicode range</th>
+            <td class="unicode4">U+A960–U+A97F</td>
+          </tr>
+          <tr>
+            <th>Unicode range</th>
+            <td class="unicode5">U+D7B0–U+D7FF</td>
+          </tr>
+        </table>
+      </div>
 
-
-
-
-</div>
-</body>
-
+      <div class="main-text">
+        <img class="letter3" src=./assets/Digeut.jpg>
+        <div class="text1">
+          The Korean alphabet, known as Hangul (Hangeul)[note 1] in South Korea
+          and Chosŏn'gŭl in North Korea, is a writing system for the Korean
+          language created by King Sejong the Great in 1443.[2][3] The letters
+          for the five basic consonants reflect the shape of the speech organs
+          used to pronounce them, and they are systematically modified to
+          indicate phonetic features; similarly, the vowel letters are
+          systematically modified for related sounds, making Hangul a featural
+          writing system.
+        </div>
+        <div class="text2">
+          Modern Hangul orthography uses 24 basic letters: 14 consonant letters
+          (ㄱ ㄴ ㄷ ㄹ ㅁ ㅂ ㅅ ㅇ ㅈ ㅊ ㅋ ㅌ ㅍ ㅎ) and 10 vowel letters (ㅏ
+          ㅑ ㅓ ㅕ ㅗ ㅛ ㅜ ㅠ ㅡ ㅣ). There are also 27 complex letters formed
+          by combining the basic letters: 5 tense consonant letters (ㄲ ㄸ ㅃ ㅆ
+          ㅉ), 11 complex consonant letters (ㄳ ㄵ ㄶ ㄺ ㄻ ㄼ ㄽ ㄾ ㄿ ㅀ ㅄ)
+          and 11 complex vowel letters (ㅐ ㅒ ㅔ ㅖ ㅘ ㅙ ㅚ ㅝ ㅞ ㅟ ㅢ). Four
+          basic letters in the original alphabet are no longer used: 1 vowel
+          letter (ㆍ) and 3 consonant letters (ㅿ ㆁ ㆆ)
+        </div>
+        <div class="text3">
+          The Korean letters are written in syllabic blocks with the alphabetic
+          letters arranged in two dimensions. For example, Hangeul in Korean is
+          spelled 한글, not ㅎㅏㄴㄱㅡㄹ. These syllables begin with a consonant
+          letter, then a vowel letter, and then potentially another consonant
+          letter. If the syllable begins with a vowel sound, then the consonant
+          "ㅇ" will act as a silent placeholder. Syllables may begin with basic
+          or tense consonants, but not complex ones. The vowel can be basic or
+          complex, while the second consonant can be basic, complex or a limited
+          number of tense consonants. The way the syllable is structured depends
+          on if the vowel is a "tall" vowel (vertical base line) or a "fat"
+          vowel (horizontal base line); if the vowel is "tall" then the first
+          consonant and vowel are written above the second consonant (if there
+          is one), whereas if a vowel is "fat" then all of the components are
+          written individually top to bottom.
+        </div>
+        <div class="text4">
+          As it combines the features of alphabetic and syllabic writing
+          systems, it has been described as an "alphabetic syllabary". As
+          in traditional Chinese and Japanese writing, Korean texts were
+          traditionally written top to bottom, right to left, and are
+          occasionally still written this way for stylistic purposes. Today, it
+          is typically written from left to right with spaces between words and
+          western-style punctuation. It is the official writing system of
+          Korea, including both North and South Korea. It is a co-official
+          writing system in the Yanbian Korean Autonomous Prefecture and
+          Changbai Korean Autonomous County in Jilin Province, China. It is also
+          sometimes used to write the Cia-Cia language spoken near the town of
+          Baubau, Indonesia. The Taiwanese linguist Hsu Tsao-te [zh] developed
+          and used a modified Hangul alphabet to represent spoken Taiwanese
+          Hokkien and was later supported by Ang Ui-jin (see Taiwanese
+          Hangul).
+        </div>
+      </div>
+      <img class="letter2" src=./assets/Nieun.jpg> <img class="letter4"
+      src=./assets/hangul.jpg> <img class="letter5" src=./assets/mi.jpg> <img
+      class="letter6" src=./assets/bi.jpg>
+    </div>
+  </body>
 </html>
